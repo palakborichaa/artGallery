@@ -1,0 +1,56 @@
+.bestsellers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    max-width: 1280px;
+    margin: auto;
+  }
+  
+  .bestsellers h1 {
+    color: rgb(255, 255, 255);
+    font-size: 90px;
+    font-weight: 100;
+    font-family: italianno;
+    margin-bottom: 50px;
+  }
+  
+  .image1, .image2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+  }
+  
+  .image1 img{
+    width: 600px;
+    margin-right:300px;
+    margin-bottom:100px;
+  }
+ 
+  
+  .details {
+    margin-left: -100px;
+    align-items:center;
+  }
+  
+  .details p {
+    font-size: 60px; 
+  }
+  .image2 img {
+    width: 600px;
+    margin-left: 300px; /* Adjust margin-left instead of margin-right */
+    margin-bottom: 100px;
+  }
+  
+  .details2 {
+ 
+    align-items: center;
+    margin-right: -100px; /* Adjust margin-right instead of margin-left */
+  }
+  
+  .details2 p {
+    font-size: 60px; 
+    margin-left:100px;
+  }
+  
