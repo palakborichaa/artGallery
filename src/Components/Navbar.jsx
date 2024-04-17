@@ -26,7 +26,7 @@ export default function Navbar () {
 
      
                 <li onClick ={()=>{setMenu("aboutus")}}>
-                    <Link to ='/aboutus'className='link-style'>About us</Link>{menu === "aboutus"? <hr/ > : <></>}
+                    <Link to ='/aboutus'className='link-style'>Aboutus</Link>{menu === "aboutus"? <hr/ > : <></>}
                 </li>
                 <li onClick ={()=>{setMenu("help")}}>
                   <Link to ='/help'className='link-style'>Help</Link>{menu === "help"? <hr/ > : <></>}

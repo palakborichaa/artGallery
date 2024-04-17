@@ -24,7 +24,7 @@ import p20_img from "./bengal pat/image10.jpg";
 let all_product = [
   {
     id: 1,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "ArtPiece",
     category: "portraits",
     image: p1_img,
     new_price: 50.0,
@@ -32,7 +32,7 @@ let all_product = [
   },
   {
     id: 2,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "ArtPiece",
     category: "portraits",
     image: p2_img,
     new_price: 85.0,
@@ -40,7 +40,7 @@ let all_product = [
   },
   {
     id: 3,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "ArtPiece",
     category: "portraits",
     image: p3_img,
     new_price: 60.0,
@@ -48,7 +48,7 @@ let all_product = [
   },
   {
     id: 4,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "ArtPiece",
   category:"sculptures",
     image: p4_img,
     new_price: 100.0,
@@ -56,7 +56,7 @@ let all_product = [
   },
   {
     id: 5,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "ArtPiece",
     category:"sculptures",
     image: p5_img,
     new_price: 85.0,
@@ -64,7 +64,7 @@ let all_product = [
   },
   {
     id: 6,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "ArtPiece",
     category:"sculptures",
     image: p6_img,
     new_price: 85.0,
@@ -72,7 +72,7 @@ let all_product = [
   },
   {
     id: 7,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "ArtPiece",
     category:"sculptures",
     image: p7_img,
     new_price: 85.0,
@@ -80,7 +80,7 @@ let all_product = [
   },
   {
     id: 8,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "ArtPiece",
 category: "portraits",
     image: p8_img,
     new_price: 85.0,
@@ -88,7 +88,7 @@ category: "portraits",
   },
   {
     id: 9,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "ArtPiece",
    category: "portraits",
     image: p9_img,
     new_price: 85.0,
@@ -96,7 +96,7 @@ category: "portraits",
   },
   {
     id: 10,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "ArtPiece",
     category: "paintings",
     image: p10_img,
     new_price: 85.0,
@@ -104,7 +104,7 @@ category: "portraits",
   },
   {
     id: 11,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "ArtPiece",
     category: "paintings",
     image: p11_img,
     new_price: 85.0,
@@ -112,7 +112,7 @@ category: "portraits",
   },
   {
     id: 12,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "ArtPiece",
     category: "paintings",
     image: p12_img,
     new_price: 85.0,
