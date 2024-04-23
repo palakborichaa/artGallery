@@ -11,7 +11,7 @@ const Bestsellers = () => {
         <img src={voyage} alt=""/>
         <div className="details">
           <p>Voyage by Jay Chung</p>
-          <p>$34,000</p>
+          <p>Rs.34,000</p>
         </div>
       </div>
       <div className='image2'>
@@ -19,7 +19,7 @@ const Bestsellers = () => {
       
         
           <p>My Fair Lady</p>
-          <p>$28,000</p>
+          <p>Rs.28,000</p>
         </div>
         <img src={fairlady} alt=""/>
       </div>

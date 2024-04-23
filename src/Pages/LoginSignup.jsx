@@ -55,7 +55,7 @@ const LoginSignup = () => {
                 checked={userType === 'User'}
                 onChange={() => setUserType('User')}
               />
-              <label>User</label>
+              <label>Buyer</label>
               <input
                 type="radio"
                 name="UserType"
@@ -63,7 +63,7 @@ const LoginSignup = () => {
                 checked={userType === 'Admin'}
                 onChange={() => setUserType('Admin')}
               />
-              <label>Admin</label>
+              <label>Seller</label>
             </div>
             <form onSubmit={handleSubmit}>
               <div className="loginsignup-fields">
