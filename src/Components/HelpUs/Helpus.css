@@ -1,0 +1,63 @@
+.help-page {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    color:#b5b5b5
+  }
+  
+  .help-page h1 {
+    font-size: 60px;
+    margin-left: 400px;
+    font-family: italianno;
+    text-decoration: wavy;
+    color: #d4d4d4;
+  }
+  
+  .help-page p {
+    font-size: 20px;
+    line-height: 1.6;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #b5b5b5;
+    margin-bottom: 40px;
+  }
+  
+  .faq-section {
+    margin-top: 30px;
+    margin-bottom:40px;
+  }
+  .faq-section h2{
+    margin-bottom:30px;
+  }
+  
+  .faq-item {
+    margin-bottom: 20px;
+    margin-top:10px;
+  }
+  
+  .faq-item h3 {
+    font-size: 20px;
+  
+    color:aliceblue;
+  }
+  
+  .contact-section {
+    margin-top: 50px;
+  }
+  
+  .contact-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-section p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Media Query for Responsive Design */
+  @media (max-width: 768px) {
+    .help-page {
+      padding: 20px 10px;
+    }
+  }
+  

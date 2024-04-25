@@ -66,6 +66,17 @@
     outline: none;
     cursor: pointer;
 }
+
+.productdisplay-right button:hover {
+    background-color: #434242;
+    color: white;
+  }
+  
+
+  .productdisplay-right button:active {
+    background-color: #333333;
+    border-color: #333333;
+  }
 .productdisplay-right-category{
     margin-top: 10px;
 }

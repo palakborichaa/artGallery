@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import Aboutus from '../Components/Aboutus/Aboutus';
 
 const AboutUs = () => {

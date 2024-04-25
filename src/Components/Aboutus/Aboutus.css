@@ -1,339 +1,40 @@
-* {
-    box-sizing: border-box;
+.about-us {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
   }
-  body {
-    font-size: 14px;
+  
+  .about-us h2 {
+    font-size: 60px;
+    align-items: center;
+    margin-left:400px;
+    font-family:italianno;
+    text-decoration: wavy;
+    color: #d4d4d4;
   }
-  .v44_110 {
-    width: 100%;
-    height: 832px;
-    background: rgba(1,1,1,1);
-    opacity: 1;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    overflow: hidden;
+  
+  .about-us p {
+    font-size: 20px;
+    line-height: 1.6;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #b5b5b5;
   }
-  .name {
-    color: #fff;
-  }
-  .name {
-    color: #fff;
-  }
-  .v81_29 {
-    width: 24px;
-    height: 24px;
-    background: rgba(255,255,255,1);
-    opacity: 1;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    overflow: hidden;
-  }
-  .v81_30 {
-    width: 18px;
-    height: 18px;
-    background: url("../images/v81_30.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    opacity: 1;
-    position: absolute;
-    top: 3px;
-    left: 3px;
-    overflow: hidden;
-  }
-  .v81_31 {
-    width: 18px;
-    height: 18px;
-    background: url("../images/v81_31.png");
-    opacity: 1;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    border: 2px solid rgba(0,0,0,1);
-  }
-  .v81_32 {
-    width: 3px;
-    height: 3px;
-    background: rgba(0,0,0,1);
-    opacity: 1;
-    position: absolute;
-    top: 3px;
-    left: 12px;
-  }
-  .v81_33 {
-    width: 6px;
-    height: 6px;
-    background: url("../images/v81_33.png");
-    opacity: 1;
-    position: absolute;
-    top: 6px;
-    left: 6px;
-    border: 2px solid rgba(0,0,0,1);
-  }
-  .v44_112 {
-    width: 211px;
-    color: rgba(255,255,255,1);
-    position: absolute;
-    top: 39px;
-    left: 26px;
-    font-family: Jacques Francois;
-    font-weight: Regular;
-    font-size: 50px;
-    opacity: 1;
-    text-align: center;
-  }
-  .v44_113 {
-    width: 674px;
-    color: rgba(255,255,255,1);
-    position: absolute;
-    top: 125px;
-    left: 26px;
-    font-family: Jacques Francois;
-    font-weight: Regular;
-    font-size: 30px;
-    opacity: 1;
-    text-align: left;
-  }
-  .v44_115 {
-    width: 150px;
-    color: rgba(255,255,255,1);
-    position: absolute;
-    top: 340px;
-    left: 27px;
-    font-family: Jacques Francois;
-    font-weight: Regular;
-    font-size: 30px;
-    opacity: 1;
-    text-align: left;
-  }
-  .v44_117 {
-    width: 501px;
-    color: rgba(255,255,255,1);
-    position: absolute;
-    top: 385px;
-    left: 26px;
-    font-family: Jacques Francois;
-    font-weight: Regular;
-    font-size: 30px;
-    opacity: 1;
-    text-align: left;
-  }
-  .v44_119 {
-    width: 689px;
-    color: rgba(255,255,255,1);
-    position: absolute;
-    top: 507px;
-    left: 27px;
-    font-family: Jacques Francois;
-    font-weight: Regular;
-    font-size: 30px;
-    opacity: 1;
-    text-align: left;
-  }
-  .v44_120 {
-    width: 430px;
-    color: rgba(255,255,255,1);
-    position: absolute;
-    top: 430px;
-    left: 26px;
-    font-family: Jacques Francois;
-    font-weight: Regular;
-    font-size: 30px;
-    opacity: 1;
-    text-align: left;
-  }
-  .v44_121 {
-    width: 296px;
-    color: rgba(255,255,255,1);
-    position: absolute;
-    top: 611px;
-    left: 27px;
-    font-family: Jacques Francois;
-    font-weight: Regular;
-    font-size: 30px;
-    opacity: 1;
-    text-align: left;
-  }
-  .v44_123 {
-    width: 331px;
-    color: rgba(255,255,255,1);
-    position: absolute;
-    top: 72px;
-    left: 900px;
-    font-family: Jacques Francois;
-    font-weight: Regular;
-    font-size: 40px;
-    opacity: 1;
-    text-align: left;
-  }
-  .v44_125 {
-    width: 135px;
-    color: rgba(255,255,255,1);
-    position: absolute;
-    top: 430px;
-    left: 905px;
-    font-family: Jacques Francois;
-    font-weight: Regular;
-    font-size: 30px;
-    opacity: 1;
-    text-align: left;
-  }
-  .v81_62 {
-    width: 80px;
-    height: 86px;
-    background: rgba(255,255,255,1);
-    opacity: 1;
-    position: absolute;
-    top: 486px;
-    left: 905px;
-    overflow: hidden;
-  }
-  .v81_65 {
-    width: 74px;
-    height: 86px;
-    background: rgba(255,255,255,1);
-    opacity: 1;
-    position: absolute;
-    top: 486px;
-    left: 908px;
-    overflow: hidden;
-  }
-  .v81_66 {
-    width: 70px;
-    height: 77px;
-    background: rgba(0,0,0,1);
-    opacity: 1;
-    position: absolute;
-    top: 4px;
-    left: 2px;
-  }
-  .v81_67 {
-    width: 80px;
-    height: 86px;
-    background: rgba(255,255,255,1);
-    opacity: 1;
-    position: absolute;
-    top: 484px;
-    left: 1005px;
-    overflow: hidden;
-  }
-  .v81_68 {
-    width: 74px;
-    height: 86px;
-    background: rgba(255,255,255,1);
-    opacity: 1;
-    position: absolute;
-    top: 484px;
-    left: 1008px;
-    overflow: hidden;
-  }
-  .v81_69 {
-    width: 61px;
-    height: 71px;
-    background: rgba(0,0,0,1);
-    opacity: 1;
-    position: absolute;
-    top: 7px;
-    left: 6px;
-  }
-  .v81_74 {
-    width: 118px;
-    height: 135px;
-    background: url("../images/v81_74.png");
-    opacity: 1;
-    position: absolute;
-    top: 624px;
-    left: 910px;
-  }
-  .v81_76 {
-    width: 80px;
-    height: 86px;
-    background: rgba(255,255,255,1);
-    opacity: 1;
-    position: absolute;
-    top: 486px;
-    left: 1111px;
-    overflow: hidden;
-  }
-  .v81_77 {
-    width: 80px;
-    height: 84px;
-    background: rgba(255,255,255,1);
-    opacity: 1;
-    position: absolute;
-    top: 486px;
-    left: 1111px;
-    overflow: hidden;
-  }
-  .v81_78 {
-    width: 69px;
-    height: 59px;
-    background: rgba(0,0,0,1);
-    opacity: 1;
-    position: absolute;
-    top: 14px;
-    left: 5px;
-  }
-  .v141_2 {
-    width: 296px;
-    color: rgba(255,255,255,1);
-    position: absolute;
-    top: 131px;
-    left: 908px;
-    font-family: Jacques Francois;
-    font-weight: Regular;
-    font-size: 30px;
-    opacity: 1;
-    text-align: left;
-  }
-  .v141_4 {
-    width: 281px;
-    color: rgba(255,255,255,1);
-    position: absolute;
-    top: 177px;
-    left: 908px;
-    font-family: Jacques Francois;
-    font-weight: Regular;
-    font-size: 30px;
-    opacity: 1;
-    text-align: left;
-  }
-  .v141_5 {
-    width: 296px;
-    color: rgba(255,255,255,1);
-    position: absolute;
-    top: 225px;
-    left: 910px;
-    font-family: Jacques Francois;
-    font-weight: Regular;
-    font-size: 30px;
-    opacity: 1;
-    text-align: left;
-  }
-  .v141_6 {
-    width: 298px;
-    color: rgba(255,255,255,1);
-    position: absolute;
-    top: 278px;
-    left: 908px;
-    font-family: Jacques Francois;
-    font-weight: Regular;
-    font-size: 30px;
-    opacity: 1;
-    text-align: left;
-  }
-  .v141_8 {
-    width: 298px;
-    color: rgba(255,255,255,1);
-    position: absolute;
-    top: 331px;
-    left: 910px;
-    font-family: Jacques Francois;
-    font-weight: Regular;
-    font-size: 30px;
-    opacity: 1;
-    text-align: left;
-  }
+  .footer-social-icon{
+    display: flex;
+    gap: 20px;
+    margin-left:400px;
+}
+.footer-icons-container{
+    padding: 10px;
+    padding-bottom: 6px;
+    background: #ffffff;
+  
+    border: 1px solid #ebebeb;
+}
+.footer-icons-container img{
+    width: 60px;
+    
+}
+  
+  /* Add more CSS rules as needed to style your component */
   
