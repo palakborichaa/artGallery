@@ -35,9 +35,7 @@ const LoginSignup = () => {
     setShowLogin(true);
   };
 
-  const handleRegister = () => {
-    setShowLogin(false);
-  };
+
 
   return (
     <div className='loginsignup'>

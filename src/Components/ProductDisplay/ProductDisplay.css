@@ -19,6 +19,12 @@
 .productdisplay-main-img{
     height: 500px;
 }
+.productdisplay-right-description{
+color:white;
+margin-top:30px;
+font-size: 20px;
+margin-bottom:40px;
+}
 .productdisplay-right{
     display: flex;
     flex-direction: column;
@@ -31,14 +37,14 @@
 .productdisplay-right-stars{
     display: flex;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 10px;
     gap: 5px;
     color: #c5c4c4;
     font-size: 14px;
 }
 .productdisplay-right-prices{
     display: flex;
-    margin: 80px 0px;
+    margin: 40px 0px 60px 0px;
     gap: 20px;
     font-size: 22px;
     font-weight: 700;
@@ -79,6 +85,7 @@
   }
 .productdisplay-right-category{
     margin-top: 10px;
+    color:#f8f8f8;
 }
 .productdisplay-right-category span{
     font-weight: 600;

@@ -7,7 +7,7 @@ import { ShopContext } from '../../Context/ShopContext';
 
 const ProductDisplay = (props) => {
   const { product } = props;
-  const { addToCart, removeFromCart } = useContext(ShopContext);
+  const { addToCart,removeFromCart } = useContext(ShopContext);
   const [addedToCart, setAddedToCart] = useState(false);
 
   const handleAddToCart = () => {
@@ -48,17 +48,17 @@ const ProductDisplay = (props) => {
           <div className='productdisplay-right-price-new'>Rs.{product.new_price}</div>
         </div>
         <div className='productdisplay-right-description'>
-          A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.
+        "Echoes of Eternity" is a mesmerizing sculpture that captures the essence of cosmic wonder and existential contemplation. Standing tall and proud, the sculpture features a central figure reaching out towards the heavens, their hand outstretched as if grasping for the secrets of the universe.
         </div>
         {addedToCart ? (
-          <button onClick={handleRemoveFromCart}>
+          <button onClick={() => removeFromCart(product.id)}>
             REMOVE
           </button>
         ) : (
           <button onClick={handleAddToCart}>ADD TO CART</button>
         )}
         <p className='productdisplay-right-category'>
-          <span>Category :</span>Women , T-Shirt, Crop Top
+          <span>Category :</span>Sculptures,potrait
         </p>
         <p className='productdisplay-right-category'>
           <span>Tags :</span>Modern, Latest

@@ -35,7 +35,7 @@ import pot6 from '../Assets/Potraits/pot6.jpg';
 let all_product = [
   {
     id: 1,
-    name: "ArtPiece",
+    name: "Angela",
     category: "portraits",
     image: p1_img,
     new_price: 5000.0,
@@ -43,7 +43,7 @@ let all_product = [
   },
   {
     id: 2,
-    name: "ArtPiece",
+    name: "Whispers of the Cosmos",
     category: "portraits",
     image: p2_img,
     new_price: 8520.0,
@@ -51,7 +51,7 @@ let all_product = [
   },
   {
     id: 3,
-    name: "ArtPiece",
+    name: "Ethereal Symphony",
     category: "portraits",
     image: p3_img,
     new_price: 6000.0,
@@ -59,7 +59,7 @@ let all_product = [
   },
   {
     id: 4,
-    name: "ArtPiece",
+    name: "Sunset Serenade",
     category: "sculptures",
     image: p4_img,
     new_price: 1230.0,
@@ -67,7 +67,7 @@ let all_product = [
   },
   {
     id: 5,
-    name: "ArtPiece",
+    name: "Dreams in Bloom",
     category: "sculptures",
     image: p5_img,
     new_price: 8523.0,
@@ -75,7 +75,7 @@ let all_product = [
   },
   {
     id: 6,
-    name: "ArtPiece",
+    name: "Celestial Harmony",
     category: "sculptures",
     image: p6_img,
     new_price: 8522.0,
@@ -83,7 +83,7 @@ let all_product = [
   },
   {
     id: 7,
-    name: "ArtPiece",
+    name: "Enchanted Melodies",
     category: "sculptures",
     image: p7_img,
     new_price: 3255.0,
@@ -91,7 +91,7 @@ let all_product = [
   },
   {
     id: 8,
-    name: "Sculpt1",
+    name: "Mystic Reverie",
     category: "sculptures",
     image: sculpt1,
     new_price: 1500.00,
@@ -99,7 +99,7 @@ let all_product = [
   },
   {
     id: 9,
-    name: "Sculpt2",
+    name: "Aurora Dreamscape",
     category: "sculptures",
     image: sculpt2,
     new_price: 1800.00,
@@ -107,7 +107,7 @@ let all_product = [
   },
   {
     id: 10,
-    name: "Sculpt3",
+    name: "Serenity's Embrace",
     category: "sculptures",
     image: sculpt3,
     new_price: 2000.00,
@@ -115,7 +115,7 @@ let all_product = [
   },
   {
     id: 11,
-    name: "Sculpt4",
+    name: "ranquil Reflectionst",
     category: "sculptures",
     image: sculpt4,
     new_price: 2500.00,
@@ -123,7 +123,7 @@ let all_product = [
   },
   {
     id: 12,
-    name: "Sculpt5",
+    name: "Echoes of Eternity",
     category: "sculptures",
     image: sculpt5,
     new_price: 2500.00,
@@ -131,7 +131,7 @@ let all_product = [
   },
   {
     id: 13,
-    name: "Sculpt6",
+    name: "Sculpture with a twist!",
     category: "sculptures",
     image: sculpt6,
     new_price: 2500.00,
@@ -139,7 +139,7 @@ let all_product = [
   },
   {
     id: 14,
-    name: "ArtPiece",
+    name: "Sapphire Mirage",
     category: "portraits",
     image: p8_img,
     new_price: 9405.0,
@@ -147,7 +147,7 @@ let all_product = [
   },
   {
     id: 15,
-    name: "ArtPiece",
+    name: "Whirlwind Whispers",
     category: "portraits",
     image: p9_img,
     new_price: 2395.0,
@@ -155,7 +155,7 @@ let all_product = [
   },
   {
     id: 16,
-    name: "ArtPiece",
+    name: "Emerald Enchantment",
     category: "paintings",
     image: p10_img,
     new_price: 1200.0,
@@ -163,7 +163,7 @@ let all_product = [
   },
   {
     id: 17,
-    name: "ArtPiece",
+    name: "Nebula Dreams",
     category: "paintings",
     image: p11_img,
     new_price: 4466.0,
@@ -171,7 +171,7 @@ let all_product = [
   },
   {
     id: 18,
-    name: "ArtPiece",
+    name: "Golden Horizon",
     category: "paintings",
     image: p12_img,
     new_price: 1234.0,
@@ -243,7 +243,7 @@ let all_product = [
   },
   {
     id: 26,
-    name: "ArtPiece",
+    name: "Sylvan Symphony",
     category: "portraits",
     image: pot1,
     new_price: 2395.0,
@@ -251,7 +251,7 @@ let all_product = [
   },
   {
     id: 27,
-    name: "ArtPiece",
+    name: "Midnight Mirage",
     category: "portraits",
     image: pot2,
     new_price: 2395.0,
@@ -259,7 +259,7 @@ let all_product = [
   },
   {
     id: 28,
-    name: "ArtPiece",
+    name: "Oceanic Overture",
     category: "portraits",
     image: pot3,
     new_price: 2395.0,
@@ -267,7 +267,7 @@ let all_product = [
   },
   {
     id: 29,
-    name: "ArtPiece",
+    name: "Crimson Cascade",
     category: "portraits",
     image: pot4,
     new_price: 2395.0,
@@ -275,7 +275,7 @@ let all_product = [
   },
   {
     id: 30,
-    name: "ArtPiece",
+    name: "Celestial Serenade",
     category: "portraits",
     image: pot5,
     new_price: 2395.0,
@@ -283,7 +283,7 @@ let all_product = [
   },
   {
     id: 31,
-    name: "ArtPiece",
+    name: "Enchanted Echo",
     category: "portraits",
     image: pot6,
     new_price: 2395.0,

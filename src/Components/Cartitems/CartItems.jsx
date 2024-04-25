@@ -2,7 +2,7 @@ import React from 'react';
 import { useContext } from 'react';
 import { ShopContext } from '../../Context/ShopContext';
 import './CartItems.css';
-import removeFromCartIcon from '../Assets/cart_cross_icon.png'; // Import the cart cross icon
+import removeFromCartIcon from '../Assets/cart_cross_icon.png'; 
 
 const CartItems = () => {
   const { getTotalCartAmount, all_product, cartItems, removeFromCart } = useContext(ShopContext);
@@ -28,7 +28,7 @@ const CartItems = () => {
                 <p>Rs.{e.new_price}</p>
                 <button className='cartitems-quantity'>{cartItems[e.id]}</button>
                 <p>Rs.{e.new_price * cartItems[e.id]}</p>
-                {/* Add the remove icon with an onClick event */}
+
                 <img src={removeFromCartIcon} alt="Remove from Cart" className="remove-from-cart-icon" onClick={() => removeFromCart(e.id)} />
               </div>
               <hr />
