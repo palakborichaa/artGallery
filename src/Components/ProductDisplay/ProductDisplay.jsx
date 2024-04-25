@@ -7,7 +7,7 @@ import { ShopContext } from '../../Context/ShopContext';
 
 const ProductDisplay = (props) => {
   const { product } = props;
-  const { addToCart,removeFromCart } = useContext(ShopContext);
+  const { addToCart, removeFromCart } = useContext(ShopContext);
   const [addedToCart, setAddedToCart] = useState(false);
 
   const handleAddToCart = () => {
@@ -51,14 +51,14 @@ const ProductDisplay = (props) => {
         "Echoes of Eternity" is a mesmerizing sculpture that captures the essence of cosmic wonder and existential contemplation. Standing tall and proud, the sculpture features a central figure reaching out towards the heavens, their hand outstretched as if grasping for the secrets of the universe.
         </div>
         {addedToCart ? (
-          <button onClick={() => removeFromCart(product.id)}>
+          <button onClick={handleRemoveFromCart}>
             REMOVE
           </button>
         ) : (
           <button onClick={handleAddToCart}>ADD TO CART</button>
         )}
         <p className='productdisplay-right-category'>
-          <span>Category :</span>Sculptures,potrait
+          <span>Category :</span>Sculptures,artpiece
         </p>
         <p className='productdisplay-right-category'>
           <span>Tags :</span>Modern, Latest
